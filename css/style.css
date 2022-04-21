@@ -1,7 +1,13 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.12,
+* Autoprefixer: v10.4.4
+* Browsers: last 4 version
+*/
+
 a {
     text-decoration: none;
 }
-
 /*header*/
 
 .bg-image {
@@ -17,10 +23,14 @@ a {
     width: auto;
     height: auto;
     padding: 30px 139px 85px 139px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
 .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-left: 490px;
    
@@ -35,6 +45,8 @@ a {
     font-family: 'Poppins';
     
 }
+
+
 
 .zeta {
     color: #FFFFFF;
@@ -63,6 +75,7 @@ a {
     font-weight: bold;
     font-family: 'Poppins';
 }
+
 
 .navlist2 {
     margin-left: 31px;
@@ -118,14 +131,16 @@ a {
     font-weight: bold;
     font-family: 'Poppins';
 }
-
 /*information*/
+
 
 .textbox {
     width: 1088px;
     height: auto;
     margin-left: 240px;
     margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -180,8 +195,9 @@ a {
     color: #FFFFFF;
 }
 
-
 /*hovers*/
+
+
 
 .description:hover {
     background-color:antiquewhite;
@@ -212,19 +228,29 @@ a {
 
 /*contacts*/
 
+
 .contacts {
     width: 1097px;
     height: 194px;
     margin-left: 230px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .box{
     width: 362px;
     height: 280px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     line-height: 20px;
     
     
@@ -236,10 +262,16 @@ a {
     width: 60px;
     height: 60px;
     border-radius: 180px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-align: center;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin: 49px 0 89px 152px;
     
 }
@@ -271,8 +303,12 @@ margin-top: 50px;
     width: 100%;
     height: 352px;
     margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 
@@ -281,14 +317,21 @@ margin-top: 50px;
 footer {
     width: 100%;
     height: 400px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     background-color: #000000;
 }
 
 
 .maincontainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 
 
@@ -297,15 +340,24 @@ footer {
     height: 189px;
     margin-top: 95px;
     margin-left: 240px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
 .footerbox1 {
     width: 260px;
     height: 189px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     
 }
 
@@ -324,6 +376,8 @@ footer {
 }
 
 .webicons {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -332,9 +386,15 @@ footer {
     height: 35PX;
     background-color:  #3B5998;
     border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-right: 16px;
 }
 
@@ -343,9 +403,15 @@ footer {
     height: 35PX;
     background-color: cyan;
     border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-right: 16px;
 }
 
@@ -354,9 +420,15 @@ footer {
     height: 35PX;
     background-color: brown;
     border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 
@@ -364,8 +436,13 @@ footer {
 .links {
     width: 103px;
     height: 189px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-left: 200px;
 }
 
@@ -390,12 +467,19 @@ footer {
 .links2 {
     width: 103px;
     height: 189px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-left: 70px;
 }
 
 .linknames2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     color:  #5863F8;
     
@@ -412,15 +496,24 @@ footer {
     line-height: 40px;
     width: 198px;
     height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 
 .footer-container {
     margin-left: 240px;
     margin-top: 70px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
